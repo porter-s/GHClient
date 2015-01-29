@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GitHub Client</string>
+    <string name="app_version">v1.0</string>
+    <string name="action_settings">Обновить</string>
+    <string name="login_file_name">Login</string>
+    <string name="password_file_name">Pass</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="enter">Войти</string>
+
+</resources>
