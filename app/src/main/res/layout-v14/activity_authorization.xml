@@ -92,5 +92,16 @@
             android:layout_alignParentEnd="true"
             android:id="@+id/textView" />
 
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/logo"
+            android:scaleType="fitXY"
+            android:layout_above="@+id/aa_etLogin"
+            android:layout_toLeftOf="@+id/aa_tvPass"
+            android:layout_toStartOf="@+id/aa_tvPass" />
+
     </RelativeLayout>
+
 </RelativeLayout>
