@@ -11,13 +11,13 @@ import java.io.ObjectInputStream;
  */
 public class LoadData {
 
-    public static String load(Context context,String fileName){
+    public static Object load(Context context,String fileName){
 
-        String data;
+        Object data;
         try {
             InputStream is = context.openFileInput(fileName+".dat");
             ObjectInputStream oi = new ObjectInputStream(is);
-            data = (String) oi.readObject();
+            data = oi.readObject();
             oi.close();
             is.close();
             return data;

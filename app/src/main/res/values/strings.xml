@@ -11,4 +11,15 @@
     <string name="sign_up">Зарегистрироваться</string>
     <string name="enter">Войти</string>
 
+
+
+
+
+    <string name="auth_message_bad_credentials">Login or Password is incorrect</string>
+    <string name="auth_message_auth_failed">Please enter a valid password</string>
+    <string name="auth_message_auth_failed_new_account">
+        Please enter a valid login &amp; password
+    </string>
+
+
 </resources>

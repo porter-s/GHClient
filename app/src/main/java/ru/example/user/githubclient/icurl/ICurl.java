@@ -5,8 +5,9 @@ import java.util.Locale;
 
 public class ICurl {
 
-	@SuppressWarnings("unused")
-	private static void main(String[] args) {
+    /*
+
+    private static void main(String[] args) {
 
 		ICurl ac = new ICurl("www.google.com");
 		ac.setHeader("mail", "mos@aaa.com");
@@ -23,7 +24,7 @@ public class ICurl {
 
 		System.out.println(ac.toCurl());
 	}
-
+*/
 	public enum Type {
 
 		GET("GET"), POST("POST"), DELETE("DELETE"), PUT("PUT");

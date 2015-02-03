@@ -13,7 +13,7 @@ import java.io.ObjectOutputStream;
  */
 public class SaveData {
 
-    public static boolean save(Context context,String fileName, String data){
+    public static boolean save(Context context,String fileName, Object data){
 
 
         try {
